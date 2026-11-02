@@ -1,0 +1,338 @@
+<resources>
+<style name="PaletteBackground0" parent="SadeDialogBase">
+<item name="android:colorBackground">#F3F0E8</item>
+<item name="android:windowBackground">@drawable/palette_0</item>
+</style>
+<style name="PaletteText0" parent="">
+<item name="android:colorAccent">#F3F0E8</item>
+<item name="android:colorControlNormal">#F3F0E8</item>
+<item name="android:colorControlActivated">#F3F0E8</item>
+<item name="android:textColorPrimary">#F3F0E8</item>
+<item name="android:textColorSecondary">#F3F0E8</item>
+<item name="android:textColorHint">#F3F0E8</item>
+<item name="android:textColorAlertDialogListItem">#F3F0E8</item>
+<item name="android:colorControlHighlight">#30F3F0E8</item>
+</style>
+<style name="PaletteBackground1" parent="SadeDialogBase">
+<item name="android:colorBackground">#FFFFFF</item>
+<item name="android:windowBackground">@drawable/palette_1</item>
+</style>
+<style name="PaletteText1" parent="">
+<item name="android:colorAccent">#FFFFFF</item>
+<item name="android:colorControlNormal">#FFFFFF</item>
+<item name="android:colorControlActivated">#FFFFFF</item>
+<item name="android:textColorPrimary">#FFFFFF</item>
+<item name="android:textColorSecondary">#FFFFFF</item>
+<item name="android:textColorHint">#FFFFFF</item>
+<item name="android:textColorAlertDialogListItem">#FFFFFF</item>
+<item name="android:colorControlHighlight">#30FFFFFF</item>
+</style>
+<style name="PaletteBackground2" parent="SadeDialogBase">
+<item name="android:colorBackground">#E5E9DF</item>
+<item name="android:windowBackground">@drawable/palette_2</item>
+</style>
+<style name="PaletteText2" parent="">
+<item name="android:colorAccent">#E5E9DF</item>
+<item name="android:colorControlNormal">#E5E9DF</item>
+<item name="android:colorControlActivated">#E5E9DF</item>
+<item name="android:textColorPrimary">#E5E9DF</item>
+<item name="android:textColorSecondary">#E5E9DF</item>
+<item name="android:textColorHint">#E5E9DF</item>
+<item name="android:textColorAlertDialogListItem">#E5E9DF</item>
+<item name="android:colorControlHighlight">#30E5E9DF</item>
+</style>
+<style name="PaletteBackground3" parent="SadeDialogBase">
+<item name="android:colorBackground">#E0E8EF</item>
+<item name="android:windowBackground">@drawable/palette_3</item>
+</style>
+<style name="PaletteText3" parent="">
+<item name="android:colorAccent">#E0E8EF</item>
+<item name="android:colorControlNormal">#E0E8EF</item>
+<item name="android:colorControlActivated">#E0E8EF</item>
+<item name="android:textColorPrimary">#E0E8EF</item>
+<item name="android:textColorSecondary">#E0E8EF</item>
+<item name="android:textColorHint">#E0E8EF</item>
+<item name="android:textColorAlertDialogListItem">#E0E8EF</item>
+<item name="android:colorControlHighlight">#30E0E8EF</item>
+</style>
+<style name="PaletteBackground4" parent="SadeDialogBase">
+<item name="android:colorBackground">#EDE1E5</item>
+<item name="android:windowBackground">@drawable/palette_4</item>
+</style>
+<style name="PaletteText4" parent="">
+<item name="android:colorAccent">#EDE1E5</item>
+<item name="android:colorControlNormal">#EDE1E5</item>
+<item name="android:colorControlActivated">#EDE1E5</item>
+<item name="android:textColorPrimary">#EDE1E5</item>
+<item name="android:textColorSecondary">#EDE1E5</item>
+<item name="android:textColorHint">#EDE1E5</item>
+<item name="android:textColorAlertDialogListItem">#EDE1E5</item>
+<item name="android:colorControlHighlight">#30EDE1E5</item>
+</style>
+<style name="PaletteBackground5" parent="SadeDialogBase">
+<item name="android:colorBackground">#EFE1D1</item>
+<item name="android:windowBackground">@drawable/palette_5</item>
+</style>
+<style name="PaletteText5" parent="">
+<item name="android:colorAccent">#EFE1D1</item>
+<item name="android:colorControlNormal">#EFE1D1</item>
+<item name="android:colorControlActivated">#EFE1D1</item>
+<item name="android:textColorPrimary">#EFE1D1</item>
+<item name="android:textColorSecondary">#EFE1D1</item>
+<item name="android:textColorHint">#EFE1D1</item>
+<item name="android:textColorAlertDialogListItem">#EFE1D1</item>
+<item name="android:colorControlHighlight">#30EFE1D1</item>
+</style>
+<style name="PaletteBackground6" parent="SadeDialogBase">
+<item name="android:colorBackground">#000000</item>
+<item name="android:windowBackground">@drawable/palette_6</item>
+</style>
+<style name="PaletteText6" parent="">
+<item name="android:colorAccent">#000000</item>
+<item name="android:colorControlNormal">#000000</item>
+<item name="android:colorControlActivated">#000000</item>
+<item name="android:textColorPrimary">#000000</item>
+<item name="android:textColorSecondary">#000000</item>
+<item name="android:textColorHint">#000000</item>
+<item name="android:textColorAlertDialogListItem">#000000</item>
+<item name="android:colorControlHighlight">#30000000</item>
+</style>
+<style name="PaletteBackground7" parent="SadeDialogBase">
+<item name="android:colorBackground">#202724</item>
+<item name="android:windowBackground">@drawable/palette_7</item>
+</style>
+<style name="PaletteText7" parent="">
+<item name="android:colorAccent">#202724</item>
+<item name="android:colorControlNormal">#202724</item>
+<item name="android:colorControlActivated">#202724</item>
+<item name="android:textColorPrimary">#202724</item>
+<item name="android:textColorSecondary">#202724</item>
+<item name="android:textColorHint">#202724</item>
+<item name="android:textColorAlertDialogListItem">#202724</item>
+<item name="android:colorControlHighlight">#30202724</item>
+</style>
+<style name="PaletteBackground8" parent="SadeDialogBase">
+<item name="android:colorBackground">#202733</item>
+<item name="android:windowBackground">@drawable/palette_8</item>
+</style>
+<style name="PaletteText8" parent="">
+<item name="android:colorAccent">#202733</item>
+<item name="android:colorControlNormal">#202733</item>
+<item name="android:colorControlActivated">#202733</item>
+<item name="android:textColorPrimary">#202733</item>
+<item name="android:textColorSecondary">#202733</item>
+<item name="android:textColorHint">#202733</item>
+<item name="android:textColorAlertDialogListItem">#202733</item>
+<item name="android:colorControlHighlight">#30202733</item>
+</style>
+<style name="PaletteBackground9" parent="SadeDialogBase">
+<item name="android:colorBackground">#30252C</item>
+<item name="android:windowBackground">@drawable/palette_9</item>
+</style>
+<style name="PaletteText9" parent="">
+<item name="android:colorAccent">#30252C</item>
+<item name="android:colorControlNormal">#30252C</item>
+<item name="android:colorControlActivated">#30252C</item>
+<item name="android:textColorPrimary">#30252C</item>
+<item name="android:textColorSecondary">#30252C</item>
+<item name="android:textColorHint">#30252C</item>
+<item name="android:textColorAlertDialogListItem">#30252C</item>
+<item name="android:colorControlHighlight">#3030252C</item>
+</style>
+<style name="PaletteBackground10" parent="SadeDialogBase">
+<item name="android:colorBackground">#342C24</item>
+<item name="android:windowBackground">@drawable/palette_10</item>
+</style>
+<style name="PaletteText10" parent="">
+<item name="android:colorAccent">#342C24</item>
+<item name="android:colorControlNormal">#342C24</item>
+<item name="android:colorControlActivated">#342C24</item>
+<item name="android:textColorPrimary">#342C24</item>
+<item name="android:textColorSecondary">#342C24</item>
+<item name="android:textColorHint">#342C24</item>
+<item name="android:textColorAlertDialogListItem">#342C24</item>
+<item name="android:colorControlHighlight">#30342C24</item>
+</style>
+<style name="PaletteBackground11" parent="SadeDialogBase">
+<item name="android:colorBackground">#272B27</item>
+<item name="android:windowBackground">@drawable/palette_11</item>
+</style>
+<style name="PaletteText11" parent="">
+<item name="android:colorAccent">#272B27</item>
+<item name="android:colorControlNormal">#272B27</item>
+<item name="android:colorControlActivated">#272B27</item>
+<item name="android:textColorPrimary">#272B27</item>
+<item name="android:textColorSecondary">#272B27</item>
+<item name="android:textColorHint">#272B27</item>
+<item name="android:textColorAlertDialogListItem">#272B27</item>
+<item name="android:colorControlHighlight">#30272B27</item>
+</style>
+<style name="PaletteBackground12" parent="SadeDialogBase">
+<item name="android:colorBackground">#EAE7DE</item>
+<item name="android:windowBackground">@drawable/palette_12</item>
+</style>
+<style name="PaletteText12" parent="">
+<item name="android:colorAccent">#EAE7DE</item>
+<item name="android:colorControlNormal">#EAE7DE</item>
+<item name="android:colorControlActivated">#EAE7DE</item>
+<item name="android:textColorPrimary">#EAE7DE</item>
+<item name="android:textColorSecondary">#EAE7DE</item>
+<item name="android:textColorHint">#EAE7DE</item>
+<item name="android:textColorAlertDialogListItem">#EAE7DE</item>
+<item name="android:colorControlHighlight">#30EAE7DE</item>
+</style>
+<style name="PaletteBackground13" parent="SadeDialogBase">
+<item name="android:colorBackground">#B5CDBD</item>
+<item name="android:windowBackground">@drawable/palette_13</item>
+</style>
+<style name="PaletteText13" parent="">
+<item name="android:colorAccent">#B5CDBD</item>
+<item name="android:colorControlNormal">#B5CDBD</item>
+<item name="android:colorControlActivated">#B5CDBD</item>
+<item name="android:textColorPrimary">#B5CDBD</item>
+<item name="android:textColorSecondary">#B5CDBD</item>
+<item name="android:textColorHint">#B5CDBD</item>
+<item name="android:textColorAlertDialogListItem">#B5CDBD</item>
+<item name="android:colorControlHighlight">#30B5CDBD</item>
+</style>
+<style name="PaletteBackground14" parent="SadeDialogBase">
+<item name="android:colorBackground">#BBCDE4</item>
+<item name="android:windowBackground">@drawable/palette_14</item>
+</style>
+<style name="PaletteText14" parent="">
+<item name="android:colorAccent">#BBCDE4</item>
+<item name="android:colorControlNormal">#BBCDE4</item>
+<item name="android:colorControlActivated">#BBCDE4</item>
+<item name="android:textColorPrimary">#BBCDE4</item>
+<item name="android:textColorSecondary">#BBCDE4</item>
+<item name="android:textColorHint">#BBCDE4</item>
+<item name="android:textColorAlertDialogListItem">#BBCDE4</item>
+<item name="android:colorControlHighlight">#30BBCDE4</item>
+</style>
+<style name="PaletteBackground15" parent="SadeDialogBase">
+<item name="android:colorBackground">#DEC0CA</item>
+<item name="android:windowBackground">@drawable/palette_15</item>
+</style>
+<style name="PaletteText15" parent="">
+<item name="android:colorAccent">#DEC0CA</item>
+<item name="android:colorControlNormal">#DEC0CA</item>
+<item name="android:colorControlActivated">#DEC0CA</item>
+<item name="android:textColorPrimary">#DEC0CA</item>
+<item name="android:textColorSecondary">#DEC0CA</item>
+<item name="android:textColorHint">#DEC0CA</item>
+<item name="android:textColorAlertDialogListItem">#DEC0CA</item>
+<item name="android:colorControlHighlight">#30DEC0CA</item>
+</style>
+<style name="PaletteBackground16" parent="SadeDialogBase">
+<item name="android:colorBackground">#DEC9AD</item>
+<item name="android:windowBackground">@drawable/palette_16</item>
+</style>
+<style name="PaletteText16" parent="">
+<item name="android:colorAccent">#DEC9AD</item>
+<item name="android:colorControlNormal">#DEC9AD</item>
+<item name="android:colorControlActivated">#DEC9AD</item>
+<item name="android:textColorPrimary">#DEC9AD</item>
+<item name="android:textColorSecondary">#DEC9AD</item>
+<item name="android:textColorHint">#DEC9AD</item>
+<item name="android:textColorAlertDialogListItem">#DEC9AD</item>
+<item name="android:colorControlHighlight">#30DEC9AD</item>
+</style>
+<style name="PaletteBackground17" parent="SadeDialogBase">
+<item name="android:colorBackground">#315E4B</item>
+<item name="android:windowBackground">@drawable/palette_17</item>
+</style>
+<style name="PaletteText17" parent="">
+<item name="android:colorAccent">#315E4B</item>
+<item name="android:colorControlNormal">#315E4B</item>
+<item name="android:colorControlActivated">#315E4B</item>
+<item name="android:textColorPrimary">#315E4B</item>
+<item name="android:textColorSecondary">#315E4B</item>
+<item name="android:textColorHint">#315E4B</item>
+<item name="android:textColorAlertDialogListItem">#315E4B</item>
+<item name="android:colorControlHighlight">#30315E4B</item>
+</style>
+<style name="PaletteBackground18" parent="SadeDialogBase">
+<item name="android:colorBackground">#355674</item>
+<item name="android:windowBackground">@drawable/palette_18</item>
+</style>
+<style name="PaletteText18" parent="">
+<item name="android:colorAccent">#355674</item>
+<item name="android:colorControlNormal">#355674</item>
+<item name="android:colorControlActivated">#355674</item>
+<item name="android:textColorPrimary">#355674</item>
+<item name="android:textColorSecondary">#355674</item>
+<item name="android:textColorHint">#355674</item>
+<item name="android:textColorAlertDialogListItem">#355674</item>
+<item name="android:colorControlHighlight">#30355674</item>
+</style>
+<style name="PaletteBackground19" parent="SadeDialogBase">
+<item name="android:colorBackground">#754859</item>
+<item name="android:windowBackground">@drawable/palette_19</item>
+</style>
+<style name="PaletteText19" parent="">
+<item name="android:colorAccent">#754859</item>
+<item name="android:colorControlNormal">#754859</item>
+<item name="android:colorControlActivated">#754859</item>
+<item name="android:textColorPrimary">#754859</item>
+<item name="android:textColorSecondary">#754859</item>
+<item name="android:textColorHint">#754859</item>
+<item name="android:textColorAlertDialogListItem">#754859</item>
+<item name="android:colorControlHighlight">#30754859</item>
+</style>
+<style name="PaletteBackground20" parent="SadeDialogBase">
+<item name="android:colorBackground">#785A36</item>
+<item name="android:windowBackground">@drawable/palette_20</item>
+</style>
+<style name="PaletteText20" parent="">
+<item name="android:colorAccent">#785A36</item>
+<item name="android:colorControlNormal">#785A36</item>
+<item name="android:colorControlActivated">#785A36</item>
+<item name="android:textColorPrimary">#785A36</item>
+<item name="android:textColorSecondary">#785A36</item>
+<item name="android:textColorHint">#785A36</item>
+<item name="android:textColorAlertDialogListItem">#785A36</item>
+<item name="android:colorControlHighlight">#30785A36</item>
+</style>
+<style name="PaletteBackground21" parent="SadeDialogBase">
+<item name="android:colorBackground">#68636F</item>
+<item name="android:windowBackground">@drawable/palette_21</item>
+</style>
+<style name="PaletteText21" parent="">
+<item name="android:colorAccent">#68636F</item>
+<item name="android:colorControlNormal">#68636F</item>
+<item name="android:colorControlActivated">#68636F</item>
+<item name="android:textColorPrimary">#68636F</item>
+<item name="android:textColorSecondary">#68636F</item>
+<item name="android:textColorHint">#68636F</item>
+<item name="android:textColorAlertDialogListItem">#68636F</item>
+<item name="android:colorControlHighlight">#3068636F</item>
+</style>
+<style name="PaletteBackground22" parent="SadeDialogBase">
+<item name="android:colorBackground">#C6BDE0</item>
+<item name="android:windowBackground">@drawable/palette_22</item>
+</style>
+<style name="PaletteText22" parent="">
+<item name="android:colorAccent">#C6BDE0</item>
+<item name="android:colorControlNormal">#C6BDE0</item>
+<item name="android:colorControlActivated">#C6BDE0</item>
+<item name="android:textColorPrimary">#C6BDE0</item>
+<item name="android:textColorSecondary">#C6BDE0</item>
+<item name="android:textColorHint">#C6BDE0</item>
+<item name="android:textColorAlertDialogListItem">#C6BDE0</item>
+<item name="android:colorControlHighlight">#30C6BDE0</item>
+</style>
+<style name="PaletteBackground23" parent="SadeDialogBase">
+<item name="android:colorBackground">#342C46</item>
+<item name="android:windowBackground">@drawable/palette_23</item>
+</style>
+<style name="PaletteText23" parent="">
+<item name="android:colorAccent">#342C46</item>
+<item name="android:colorControlNormal">#342C46</item>
+<item name="android:colorControlActivated">#342C46</item>
+<item name="android:textColorPrimary">#342C46</item>
+<item name="android:textColorSecondary">#342C46</item>
+<item name="android:textColorHint">#342C46</item>
+<item name="android:textColorAlertDialogListItem">#342C46</item>
+<item name="android:colorControlHighlight">#30342C46</item>
+</style>
+</resources>

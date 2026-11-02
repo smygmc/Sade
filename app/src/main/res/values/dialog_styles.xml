@@ -1,0 +1,63 @@
+<resources>
+    <!-- Explicit builder overlay keeps the dynamic base palette and font intact. -->
+    <style name="SadeDialogOverlay" parent="">
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="SadeDialogBase" parent="android:style/Theme.Material.Light.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">88%</item>
+        <item name="android:windowMinWidthMinor">88%</item>
+        <item name="android:colorAccent">#272B27</item>
+        <item name="android:colorControlNormal">#272B27</item>
+        <item name="android:colorControlActivated">#272B27</item>
+        <item name="android:colorControlHighlight">#20272B27</item>
+        <item name="android:textColorPrimary">#272B27</item>
+        <!-- Plain AlertDialog lists use this separate color, not textColorPrimary. -->
+        <item name="android:textColorAlertDialogListItem">?android:attr/textColorPrimary</item>
+        <item name="android:textColorSecondary">#50554F</item>
+        <item name="android:textColorHint">#62665F</item>
+        <item name="android:timePickerStyle">@style/SadeTimePicker</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="SadeDialogPaper" parent="SadeDialogBase">
+        <item name="android:colorBackground">#F3F0E8</item>
+        <item name="android:windowBackground">@drawable/dialog_paper</item>
+    </style>
+    <style name="SadeDialogWhite" parent="SadeDialogBase">
+        <item name="android:colorBackground">#FFFFFF</item>
+        <item name="android:windowBackground">@drawable/dialog_white</item>
+    </style>
+    <style name="SadeDialogDark" parent="SadeDialogBase">
+        <item name="android:colorAccent">#EAE7DE</item>
+        <item name="android:colorControlNormal">#EAE7DE</item>
+        <item name="android:colorControlActivated">#EAE7DE</item>
+        <item name="android:colorControlHighlight">#30EAE7DE</item>
+        <item name="android:textColorPrimary">#EAE7DE</item>
+        <item name="android:textColorSecondary">#C6C4BA</item>
+        <item name="android:textColorHint">#ABA99F</item>
+    </style>
+    <style name="SadeDialogBlack" parent="SadeDialogDark">
+        <item name="android:colorBackground">#000000</item>
+        <item name="android:windowBackground">@drawable/dialog_black</item>
+    </style>
+    <style name="SadeDialogSage" parent="SadeDialogDark">
+        <item name="android:colorBackground">#202724</item>
+        <item name="android:windowBackground">@drawable/dialog_sage</item>
+    </style>
+    <style name="SadeDialogFontSans" parent="">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="SadeDialogFontSerif" parent="">
+        <item name="android:fontFamily">serif</item>
+    </style>
+    <style name="SadeDialogFontMono" parent="">
+        <item name="android:fontFamily">monospace</item>
+    </style>
+    <style name="SadeTimePicker" parent="android:style/Widget.Material.TimePicker">
+        <item name="android:headerBackground">?android:attr/colorBackground</item>
+        <item name="android:numbersTextColor">@color/dialog_clock_text</item>
+        <item name="android:numbersInnerTextColor">@color/dialog_clock_text</item>
+        <item name="android:numbersSelectorColor">?android:attr/colorAccent</item>
+        <item name="android:numbersBackgroundColor">?android:attr/colorControlHighlight</item>
+        <item name="android:amPmTextColor">?android:attr/textColorPrimary</item>
+    </style>
+</resources>

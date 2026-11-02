@@ -1,0 +1,12 @@
+.gradle/
+.idea/
+local.properties
+**/build/
+.kotlin/
+preview.png
+__pycache__/
+*.py[cod]
+*.jks
+*.keystore
+.env
+.env.*
